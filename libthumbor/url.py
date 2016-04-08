@@ -75,6 +75,10 @@ def get_url_parts(**options):
     if options.get('meta', False):
         url_parts.append('meta')
 
+    rotate = options.get('rotate', None)
+    if rotate:
+        url_parts.append('rotate:%s' % rotate)
+
     trim = options.get('trim', None)
     if trim:
         bits = ['trim']
