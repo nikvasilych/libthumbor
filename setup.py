@@ -22,7 +22,7 @@ tests_require = [
 
 setup(
     name='libthumbor',
-    version="1.3.2",
+    version="1.3.3",
     description="libthumbor is the python extension to thumbor",
     long_description="""
 libthumbor is the python extension to thumbor.
@@ -32,7 +32,7 @@ It allows users to generate safe urls easily.
              ' imagemagick pil opencv',
     author='Bernardo Heynemann',
     author_email='heynemann@gmail.com',
-    url='http://github.com/heynemann/libthumbor',
+    url='http://github.com/thumbor/libthumbor',
     license='MIT',
     classifiers=['Development Status :: 4 - Beta',
                  'Intended Audience :: Developers',
@@ -40,7 +40,7 @@ It allows users to generate safe urls easily.
                  'Natural Language :: English',
                  'Operating System :: MacOS',
                  'Operating System :: POSIX :: Linux',
-                 'Programming Language :: Python :: 2.6',
+                 'Programming Language :: Python :: 3.6',
                  'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
                  'Topic :: Multimedia :: Graphics :: Presentation'
                  ],
